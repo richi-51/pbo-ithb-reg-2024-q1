@@ -100,7 +100,7 @@ public class MainMenu {
 
             String menuMakanan = "Tidak ada";
             menuMakanan = JOptionPane.showInputDialog("Silahkan pilih 2 menu makanan:\n1. Nasi goreng\n2. Mie goreng\n3. Seafood \nSilahkan masukkan pilihan pertama (nama makanannya): ");
-            menuMakanan += JOptionPane.showInputDialog("Silahkan pilih 1 menu makanan:\n1. Nasi goreng\n2. Mie goreng\n3. Seafood \nSilahkan masukkan pilihan kedua (nama makanannya): ");
+            menuMakanan += ", " + JOptionPane.showInputDialog("Silahkan pilih 1 menu makanan:\n1. Nasi goreng\n2. Mie goreng\n3. Seafood \nSilahkan masukkan pilihan kedua (nama makanannya): ");
             JOptionPane.showMessageDialog(null, "Anda dapat tambah porsi sebanyak apapun.");
 
             FirstClass fc = new FirstClass(jarak, isInsurance, menuMakanan);
